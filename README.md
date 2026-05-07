@@ -93,57 +93,52 @@ The `cleaner.py` module applies NLP preprocessing.
 
 The analysis.py module provides insights.
 
-Features:
-Top skills extraction
-City distribution analysis
-WordCloud generation
-Output:
-data/analysees/wordcloud.png
-🚀 Key Features
-⚡ Optimized Scraper
-requests.Session for speed
-Retry mechanism
-Random delay to avoid blocking
-🧠 Structured Extraction
-Clean parsing of job criteria
-Robust handling of missing fields
-🌍 NLP Pipeline (French)
-Tokenization (NLTK)
-Lemmatization (SpaCy)
-Stopword filtering
-📊 Analytics
-Skills frequency
-Location insights
-WordCloud visualization
-🧩 Modular Design
-Scraping → Data collection
-Cleaning → Transformation
-Analysis → Insights
-▶️ How to Run
-Install dependencies
-pip install -r requirements.txt
-Run scraper
-python scraper.py
-Run NLP cleaning
-python cleaner.py
-Run analysis
-python analysis.py
-🛠️ Tech Stack
-Python
+- Features:
+* Top skills extraction
+* City distribution analysis
+* WordCloud generation
+- Output:
+* data/analysees/wordcloud.png
+*  🚀 Key Features
+* ⚡ Optimized Scraper
+* requests.Session for speed
+* Retry mechanism
+* Random delay to avoid blocking
+* 🧠 Structured Extraction
+* Clean parsing of job criteria
+* Robust handling of missing fields
+* 🌍 NLP Pipeline (French)
+* Tokenization (NLTK)
+* Lemmatization (SpaCy)
+* Stopword filtering
+* 📊 Analytics
+* Skills frequency
+* Location insights
+* WordCloud visualization
+* 🧩 Modular Design
+* Scraping → Data collection
+* Cleaning → Transformation
+* Analysis → Insights
+- ▶️ How to Run
+* **Install dependencies**
+* pip install -r requirements.txt
+- **Run scraper**
+* python scraper.py
+- **Run NLP cleaning**
+* python cleaner.py
+- **Run analysis**
+- python analysis.py
+- 🛠️ Tech Stack
+**Python
 BeautifulSoup
 Requests
 Pandas
 NLTK
 SpaCy
 Matplotlib
-WordCloud
-📈 Future Improvements
-Database integration (MongoDB / PostgreSQL)
-Streamlit dashboard
-ML-based job classification
-Advanced skill extraction models
-Web deployment
-Author :
-Zouhair Sakane
-Data Engineering & AI Student
-Specialized in Web Scraping, NLP, and Data Science pipelines
+WordCloud**
+
+- **Author :**
+* **Zouhair Sakane**
+* Data Engineering & AI Student
+* Specialized in Web Scraping, NLP, and Data Science pipelines
