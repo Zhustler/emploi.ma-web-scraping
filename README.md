@@ -46,7 +46,7 @@ projet_emploi/
 
 ## 1. Data Collection (Web Scraping)
 
-The scraping module (`scraper.py`) extracts structured job data from [Emploi.ma](https://www.emploi.ma?utm_source=chatgpt.com).
+The scraping module (`scraper.py`) extracts structured job data from [Emploi.ma](https://www.emploi.ma/recherche-jobs-maroc).
 
 ### Features:
 - Session-based requests for performance
@@ -101,7 +101,13 @@ The scraping module (`scraper.py`) extracts structured job data from [Emploi.ma]
   
   "date_publication": "2026-05-07"
 } 
-- `jobs.csv`
+* you can see resultat how look like : "https://github.com/Zhustler/emploi.ma-web-scraping/blob/7f44ef430651ffbe9ba192859b9f0ed8dd967c53/data/brutes/jobs.json" 
+* or in this path : data/brutes/jobs.json
+- `jobs.csv` like :
+url | titre | entreprise | description | metier | secteur | contrat | region | ville | teletravail | experience | niveau_etude | competences  | date_publication
+
+* you can see resultat how look like : "https://github.com/Zhustler/emploi.ma-web-scraping/blob/7f44ef430651ffbe9ba192859b9f0ed8dd967c53/data/brutes/jobs.csv" 
+* or in this path : data/brutes/jobs.csv
 
 ---
 
