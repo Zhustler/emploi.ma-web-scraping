@@ -71,22 +71,36 @@ The scraping module (`scraper.py`) extracts structured job data from [Emploi.ma]
 
 ### Output:
 - `jobs.json` like:
-* **{
+* {
+  
   "url": "...",
+  
   "titre": "...",
+  
   "entreprise": "...",
+  
   "description": "...",
+
   "metier": "...",
+
   "secteur": "...",
+
   "contrat": "...",
+
   "region": "...",
+
   "ville": "...",
+
   "teletravail": "...",
+  
   "experience": "...",
+  
   "niveau_etude": "...",
+  
   "competences": [],
+  
   "date_publication": "2026-05-07"
-}**
+} 
 - `jobs.csv`
 
 ---
