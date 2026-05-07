@@ -8,24 +8,22 @@ It demonstrates a complete workflow covering:
 - Exploratory data analysis and visualization
 
 ---
-# 📁 Project Architecture
-
+## 📁 Project Architecture
 
 projet_emploi/
 │
 ├── data/
-│ ├── brutes/ # Raw scraped data (JSON, CSV)
-│ ├── nettoyees/ # Cleaned NLP dataset
-│ ├── analysees/ # Generated visualizations
+│   ├── brutes/          # Raw scraped data (JSON, CSV)
+│   ├── nettoyees/       # Cleaned NLP dataset
+│   ├── analysees/       # Generated visualizations (charts, wordcloud)
 │
 ├── scraping/
-│ ├── scraper.py # Web scraping engine
-│ ├── config.py # Configuration settings
+│   ├── scraper.py       # Web scraping engine
+│   ├── config.py        # Configuration settings (URLs, headers, delays)
 │
-├── cleaner.py # NLP preprocessing pipeline
-├── analysis.py # Data analysis & visualization
-├── requirements.txt # Dependencies
-
+├── cleaner.py           # NLP preprocessing pipeline
+├── analysis.py          # Data analysis & visualization
+├── requirements.txt     # Project dependencies
 
 
 ---
