@@ -10,23 +10,37 @@ It demonstrates a complete workflow covering:
 ---
 ## 📁 Project Architecture
 
+
 projet_emploi/
+
 │
+
 ├── data/
+
 │   ├── brutes/          # Raw scraped data (JSON, CSV)
+
 │   ├── nettoyees/       # Cleaned NLP dataset
+
 │   ├── analysees/       # Generated visualizations (charts, wordcloud)
+
 │
+
 ├── scraping/
+
 │   ├── scraper.py       # Web scraping engine
+
 │   ├── config.py        # Configuration settings (URLs, headers, delays)
+
 │
+
 ├── cleaner.py           # NLP preprocessing pipeline
+
 ├── analysis.py          # Data analysis & visualization
+
 ├── requirements.txt     # Project dependencies
 
 
----
+
 
 # ⚙️ System Workflow
 
