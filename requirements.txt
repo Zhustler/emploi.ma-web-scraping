@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+tqdm
+nltk
+spacy
+pandas
+wordcloud
+matplotlib
